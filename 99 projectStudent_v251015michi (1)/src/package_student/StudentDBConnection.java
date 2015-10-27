@@ -4,8 +4,6 @@ import java.sql.*;
 
 public class StudentDBConnection implements DBConnection<Integer, Student> {
 
-    Student mStudent;
-
     Connection connection;
 
     Statement mStatement;
